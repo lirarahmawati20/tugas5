@@ -1,0 +1,184 @@
+* {
+      font-family:"Roboto",Helvetica,Arial,sans-serif;
+      margin: 0;
+      padding: 0;
+}
+ a {
+      text-decoration: none;
+ }
+
+header {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 0px 13px 25px;
+      margin: auto;
+      border-bottom: 1px solid gainsboro;
+      position: sticky;
+      top: 0;
+      background-color: #ffff;
+      background-position: top;
+}
+.container-left {
+      display: flex;
+      align-items: center;margin-top: 5px;
+}
+.container-left div {
+      display: flex;
+      align-items: center;
+      align-content: center;
+}
+#menu {
+      padding-right: 20px;
+}
+#google {
+      display: flex;
+      align-items: stretch;
+      gap: 3px;
+}
+#classroom {
+      margin-top: -2px;
+      color: #5f6368;
+      font-size: 1.38125rem;
+      font-family: "Product Sans",Arial,Helvetica,sans-serif;
+}
+.container-right{
+      display: flex;
+      gap: 20px;
+}
+.container-right div {
+      display: flex;
+      align-items: center;
+}
+#logo a img{
+      border-radius: 50%;
+      margin-right: 30px;
+}
+.header-icon:hover {
+      padding: 10px;
+      margin: -10px;
+      background-color: #f5f5f5;
+      border-radius: 50%;
+}
+#logo a img:hover{
+      padding: 5px;
+      margin: -5px 25px -5px -5px;
+}
+.header-icon:active {
+      background-color: #c7c7c7;
+}
+nav {
+      display: flex;
+      font-size: .875rem;
+      gap: 10px;
+      margin: 15px 20px;
+      font-weight:500;
+}
+nav a {
+      align-items: center;
+      color: #1a73e8;
+      font-family: "Google Sans",Roboto,Arial,sans-serif;
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      gap: 10px;
+}
+      /* hoverable and active on navigation */
+nav a:hover {
+      background-color: #f6fafe;
+      color: #275bac;
+}
+nav a:active {
+      background-color: #cce0f9;
+      border-radius: 5px;
+}
+main {
+      height: 100%;
+      margin: 15px 0px 20px 25px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+}
+.classroom:hover {
+      box-shadow: 3px 4px 5px gainsboro, 
+      -1px -1px 1px gainsboro;
+      cursor: pointer;
+}
+.classroom {
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 1px solid gainsboro;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      width: 300px;
+}
+.classroom .classroom-header {
+      background-image: url(./images/background2.jpg);
+      background-size: cover;
+      border-radius: 5px 5px 0 0 ;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0px 25px 15px;
+}
+.classroom-header-description {
+      display: flex;
+      flex-direction: column;
+}
+.classroom-header-icon .header-icon {
+      margin-right: 15px;
+}
+.title {
+      font-size: 22px;
+}
+.group {
+      font-size: 13px;
+}
+.tutor {
+      font-size: 13px;
+      margin-top: 10px;
+      margin-bottom: -10px;
+}
+.title:hover, 
+.group:hover,
+.tutor:hover {
+      text-decoration: underline;
+}
+.classroom-header-icon .header-icon:hover {
+      background-color: gainsboro;
+      border-radius: 50%;
+      margin-right: 5px;
+}
+.classroom .classroom-main {
+      height: 135px;
+      border-bottom: 1px solid gainsboro;
+}
+.classroom-profil {
+    float: right;
+    margin-top: -40px;
+    padding-right: 16px;
+}
+.classroom-profil img {
+    border-radius: 50%;
+}
+.classroom-footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+      padding: 12px 20px;
+}
+footer {
+      display: flex;
+      position: sticky;
+      bottom: 0;
+      margin-left: 22px;
+}
+footer a {
+      margin-top: -47px;
+}
+footer a img:hover {
+      padding: 10px;
+      margin: -10px -10px;
+      background-color: #f5f5f5;
+      border-radius: 50%;
+      cursor: pointer;
+}
